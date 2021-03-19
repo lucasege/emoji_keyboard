@@ -3,10 +3,10 @@ import 'base_emoji.dart';
 
 /// list of all emojis
 const emojiList = <Emoji>[
-  Emoji('Grinning Face', "\u{1F600}", EmojiCategory.people,
+  Emoji('Grinning Face', "😀", EmojiCategory.people,
       limitRangeAndroid: [MapEntry('04.4', '20')],
       limitRangeIOS: [MapEntry('06.0', '20')]),
-  Emoji('Grinning Face with Big Eyes', "\u{1F603}", EmojiCategory.people,
+  Emoji('Grinning Face with Big Eyes', "😃", EmojiCategory.people,
       limitRangeAndroid: [MapEntry('04.3', '20')],
       limitRangeIOS: [MapEntry('04.0', '20')]),
   Emoji('Grinning Face with Smiling Eyes', "\u{1F604}", EmojiCategory.people,
